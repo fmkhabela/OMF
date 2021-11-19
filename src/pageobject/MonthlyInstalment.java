@@ -49,7 +49,7 @@ public class MonthlyInstalment extends BaseClass{
 	@FindBy(xpath = "//*[@id=\'blt9c764616951e6d18\']/div/div[2]/div[2]/om-calculator-result/div[2]/h5/strong")
 	@CacheLookup
 	WebElement validateAmount;
-	
+	//Select 60 MONTHS from the “How long do you need to repay it?” dropdown and click CALCULATE.
 	public void MonthlyInstalmentPageObject() throws InterruptedException, IOException {
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;

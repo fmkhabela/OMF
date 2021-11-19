@@ -52,7 +52,7 @@ public class ValidateRepaymentAmount extends BaseClass{
 	@FindBy(xpath = "//*[@id=\'blt9c764616951e6d18\']/div/div[2]/div[2]/om-calculator-result/div[2]/h5/strong")
 	@CacheLookup
 	WebElement validateAmount;
-	
+	//Validate the amounts R1656.43 and R1810.05 under the RESULT SUMMARY section.
 	public void ValidateRepaymentAmountPageObject() throws InterruptedException, IOException {
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
