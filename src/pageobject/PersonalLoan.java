@@ -29,7 +29,7 @@ WebDriver driver;
 	@CacheLookup
 	WebElement linkPersonalLoans;
 
-	
+	//Navigate to PERSONAL LOANS page and verify that you are on the correct page.
 	public void VerifyPersonalLoansPageObject() throws InterruptedException, IOException {
 		
 		driver.navigate().to("https://www.oldmutual.co.za/personal/solutions/bank-and-borrow/personal-loans/");
