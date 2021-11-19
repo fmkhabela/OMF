@@ -2,7 +2,7 @@
 # Install jdk in your machine 
 # Setup enviroment viariable 
 # Download Chrome and gecko drivers
-# Downalod selenium driver stand alone 
+# Downalod selenium driver stand alone  - https://www.selenium.dev/downloads/
 # Add TestNG plug-in  - testng.org/testng-eclipse-update-site
 # Download - extend reportjarfiles  - https://jar-download.com/artifact-search/extentreports
 # Download  - fileUlits for screenshots - https://jar-download.com/?search_box=FileUtils
