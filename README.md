@@ -1,6 +1,6 @@
 # OMF
 # Install jdk in your machine 
-# Setup enviroment viarianle 
+# Setup enviroment viariable 
 # Download Chrome and gecko drivers
 # Downalod selenium driver stand alone 
 # Add TestNG plug-in  - testng.org/testng-eclipse-update-site
