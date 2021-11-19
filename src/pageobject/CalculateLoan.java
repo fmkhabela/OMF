@@ -39,7 +39,7 @@ public class CalculateLoan extends BaseClass{
 	@FindBy(xpath = "//div[@class='theme-default om-personal-loans-calculator']/..//*[@id=\"loanAmount\"]/div/div/div/om-form-dropdown-field/div/div[1]/span[1]")
 	@CacheLookup
 	WebElement selectedAmountIs;
-	
+	//Select 60 MONTHS from the “How long do you need to repay it?” dropdown and click CALCULATE.
 	public void CalulateLoanPageObject() throws InterruptedException, IOException {
 		
 		try {
