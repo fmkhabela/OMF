@@ -23,7 +23,7 @@ public class OldMutualMainPageTitle extends BaseClass{
 		PageFactory.initElements(_driver, this);
 	}
 
-
+// verify that the title is Bank and Borrow Solutions | Old Mutual.
 	
 	public void VerifyTitlePageObject() throws IOException {
 		
